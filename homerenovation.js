@@ -50,6 +50,7 @@ const furnitureCost = function (totalCost, callback) {
 
 const floorCoverings = function(totalCost, callback) {
     let cost = prompt("Enter the cost of floor covering: ");
+    cost = parseFloat(cost);
 
     if (cost > 2000) {
         alert("You spent too much on floor coverings, take some back!");
